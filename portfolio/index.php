@@ -33,6 +33,9 @@
                 <a href="#portfolio" class="nav-link">Portfolio</a>
             </li>
             <li>
+                <a href="#experience" class="nav-link">Parcours</a>
+            </li>
+            <li>
                 <a href="#experience" class="nav-link">Experiences</a>
             </li>
             <li>
@@ -49,10 +52,10 @@
 
 <section class="about" id="about">
     <div class="container">
-        <div class="profile-img">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
             <img src="img/moi2020.jpg" alt="">
         </div>
-        <div class="about-details">
+        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
             <div class="about-heading">
                 <h1>Présentation</h1>
                 <h6>Myself</h6>
@@ -98,49 +101,50 @@
 
 </section>
 
+
 <section class="services" id="services">
     <div class ="container">
-        <div class ="section-heading">
-            <h1> SERVICES </h1>
+        <div class ="section-heading" >
+            <h1> Services </h1>
             <h6>What I can do for you</h6>
         </div>
         <div class="my-skills">
-            <div class="skill">
+            <div class="skill" data-aos="fade-in" data-aos-delay="300">
                 <div class="icon-container">
                     <i class="fas fa-layer-group"></i>
                 </div>
-                <br>
-                <h1>  Full Stack Development</h1>
+                <h1>OUTILS</h1>
                 <p>
-                    I recently started designing websites!
-                    I am interested in backend design because of analyzing
-                    software architecture and the technicalities.
-                    I am familiar with MySQL Databases and
-                    I have worked with is Angular 6 framework and have prior experience in React-Native.
+                   FIGMA<br>
+                     TRELLO<br>
+                    GIMP<br>
+                    <br>
                 </p>
             </div>
-            <div class="skill">
+            <div class="skill" data-aos="fade-in" data-aos-delay="600">
                 <div class ="icon-container">
                     <i class="fas fa-code"></i>
                 </div>
-                <h1> DÉVELOPPEMENT</h1>
+                <h1> Compétences Techniques</h1>
                 <p>
-                    Développement sur mesure. 
-                    Création ou refonte de site. 
-                    Systèmes de gestion de contenu (CMS) Drupal et WordPress.
-                     Technologies open-source.
+                    HTML/CSS<br>
+                    JAVASCRIPT<br>
+                    PHP<br>
+                    SYMFONIE<br>
+                    SRAPI<br>
+                    WORDPRESS<br>
+                    MERISE<br>
+
                 </p>
             </div>
-            <div class="skill">
+            <div class="skill" data-aos="fade-in" data-aos-delay="900">
                 <div class="icon-container">
                     <i class="fas fa-headset"></i>
                 </div>
                 <h1> IT Support </h1>
-                <p>
-                    Having worked at University of Technical support,
-                    I am well equipped to handle various workflows pertaining to client devices over various systems and networks.
-                    From fixing the broken printer in the office to recovering important client data,
-                    there is not much that I cannot do!
+                <p> Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. 
+                    Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
+                     quand un imprimeur anonyme assembla ensemble des morceaux
                 </p>
             </div>
         </div>
@@ -151,54 +155,51 @@
     <div class="container">
         <div class="section-heading">
             <h1> Portfolio </h1>
-            <h6>View some of my recent work</h6>
+            <h6>"La connaissance s'acquiert par l'expérience, tout le reste n'est que de l'information"</h6>
         </div>
         <div class="portfolio-item">
-            <div class="portfolio-img has-margin-right">
+            <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
                 <img src="img/Hospital1.jpeg" alt="">
             </div>
-            <div class="portfolio-description">
+            <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
                 <h6>Web Development</h6>
                 <h1>Blog/Art Website</h1>
                 <p>
-                    I am currently in the works of publishing a personal website of recreational content
-                    that I do on the internet! I draw a lot and play the Harmonica and Piano,
-                    I want to document the fun things I do to inspire others and keep myself motivated.
+                     Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. 
+                    Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
+                     quand un imprimeur anonyme assembla ensemble des morceaux
                 </p>
                 <a href="#" class ="cta">View Details</a>
             </div>
         </div>
         <div class="portfolio-item">
-            <div class="portfolio-description ">
+            <div class="portfolio-description " data-aos="fade-right" data-aos-delay="900">
                 <h6>Full Stack development</h6>
                 <h1>SDN Platform</h1>
                 <p>
-                    Last summer, I traveled to Charlotte,
-                    North Carolina to do Undergraduate Research for Software defined networking.
-                    My team and I developed a dynamic platform and controller for SDN applications using Angular, IPOPO and python.
-                    The purpose of this research was to help make it easier to
-                    manage and visualize networks topologies and infrastructure.
+                     Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. 
+                    Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
+                     quand un imprimeur anonyme assembla ensemble des morceaux
 
                 </p>
                 <a href="#" class="cta">View Details</a>
             </div>
-            <div class="portfolio-img has-margin-left">
+            <div class="portfolio-img has-margin-left" data-aos="fade-left" data-aos-delay="1200">
                 <img src="img/Hospital1.jpeg" alt="">
             </div>
         </div>
 
         <div class="portfolio-item">
-            <div class="portfolio-img has-margin-right">
+            <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
                 <img src="img/Hospital1.jpeg" alt="">
             </div>
-            <div class="portfolio-description">
+            <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
                 <h6>Java programming</h6>
                 <h1>Hospital Utility</h1>
                 <p>
-                    I took a interesting “Intro to Software Engineer” course.
-                    For our final assignment we were assigned to make a depth Hospital Utility system using Java.
-                    It was very interesting on nitpicking the pros and cons of JavaFX and Swing.
-                    All of the code is on my Github!
+                    Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. 
+                    Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,
+                     quand un imprimeur anonyme assembla ensemble des morceaux
                 </p>
                 <a href="#" class="cta">View Details</a>
 
@@ -210,34 +211,57 @@
 <section class="experience" id="experience">
     <div class="container">
         <div class="section-heading">
-            <h1> Work Experiences </h1>
-            <h6>Past and current jobs</h6>
+            <h1> Parcours </h1>
+            <h6>"Les parcours sinueux sont ceux qui atteignent les sommets."</h6>
         </div>
-        <div class="timeline">
+        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
             <ul>
-                <li class="date" data-date="02/2019 - present">
-                    <h1>PRLACC</h1>
+                <li class="date" data-date="2020">
+                    <h1>Titre Professionnel<br>Developpeuse web</h1>
                     <p>
-                        I am currently serving as a Student Co-Chair for the Student Leadership Conference.
-                        I strive on being a positive role model for the latino community
-                        and advocate for latinos to pursue in careers in need of diversity.
+                       Passionné par la réalisation et le développement de projets web, j'ai pu integré au centre de formation 
+                       "Simplon" sur Pau où j ai acqises des competences et connaissances et decouvrir de nouvelles notions dans le developpements.
                     </p>
                 </li>
-                <li class="date" data-date="01/2018 - 11/2018">
-                    <h1>Information Technology Services </h1>
+                <li class="date" data-date="2018">
+                    <h1>Bac-Commerce</h1>
                     <p>
-                        I assisted University affiliated with IT related issues
-                        and worked with Windows/Mac reformat, Mac BootCamps and Window/Linux PE systems.
-                        My responsibilities included
-                        Phone service, Quick support, Shop Tech jobs, and management of client sensitive data.
+                        Aprés un travail de réflexion sur mon avenir professionnel, j'ai decider de passer mon Bac-Commerce en france afin d'asseoir un peu plus mon parcours professionnel en France.
                     </p>
                 </li>
-                <li class="date" data-date="01/2017 - 06/2017">
+                
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="experience" id="experience">
+    <div class="container">
+        <div class="section-heading">
+            <h1> Experiences </h1>
+            <h6>"La connaissance s'acquiert par l'expérience, tout le reste n'est que de l'information"</h6>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+            <ul>
+                <li class="date" data-date="2018-2019">
+                    <h1>Vendeuse -DPAM</h1>
+                    <p>
+                        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+                        Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500
+                    </p>
+                </li>
+                <li class="date" data-date="2010-2015">
+                    <h1>Adjoint Responsable-Benefit</h1>
+                    <p>
+                        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+                        Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.
+                    </p>
+                </li>
+                <li class="date" data-date="2017-2017">
                     <h1>Stamford</h1>
                     <p>
-                        During my second semester in college,
-                        I assisted my CS Professor Phillip Bradford on his research and got introduced to React-Native for the first time.
-                        My role was focused on figuring out how to proceed with android development.
+                        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+                        Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500
                     </p>
                 </li>
             </ul>
@@ -249,18 +273,24 @@
     <div class="container">
         <div class="section-heading">
             <h1>Contact</h1>
-            <h6>Let's work together</h6>
+            <h6>Dis moi que puis-je faire pour toi ? </h6>
         </div>
-        <form action="">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+    
+        <form action="insertion.php" method="post" data-aos="fade-up" data-aos-delay="300">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="lastName" placeholder="Entre votre Nom..." required>
+
+            <label for="prenom">Prenom:</label>
+            <input type="text" id="prenom" name="firstName" placeholder="Entre votre Prenom..." required>
+            
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Enter your email..." required>
 
 
-            <label for="subject">Subject:</label>
+            <label for="subject">Message:</label>
             <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Envoie">
         </form>
     </div>
 </section>
@@ -269,7 +299,7 @@
     <div class="up" id="up">
         <i class="fas fa-chevron-up"></i>
     </div>
-    <p>&copy; 2019 Name</p>
+    <p>&copy; 2019 Tavares lessandra</p>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
