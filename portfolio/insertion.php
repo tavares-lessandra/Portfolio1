@@ -3,7 +3,7 @@
 //test de connexion
 try
 {
-$bdd = new PDO('mysql:host=localhost;dbname=portfoliocontact', 'lessandra','step24'); // en cas de succes => c'est ok
+$bdd = new PDO('mysql:host=localhost;dbname=portfolio_contact', 'lessandra', 'step24'); // en cas de succes => c'est ok
 }
     catch (Exception $e) // ici en cas d'erreur
   
