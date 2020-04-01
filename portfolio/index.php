@@ -290,7 +290,7 @@
 
             <label for="subject">Message:</label>
             <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-            <input type="submit" value="Envoie">
+            <input type="submit" name="submit" value="Envoi">
         </form>
     </div>
 </section>

@@ -13,18 +13,20 @@ die('Erreur : ' . $e->getMessage());
 ?>
 
 <?php
+var_dump($_POST);
 // envoyer les donnees a la BDD
 if(isset($_POST['submit'])) {
-    $nom = $_POST['lastname'];
-    $prenom = $_POST['fistname'];
-    $email = $_POST['email'];
-    $message = $_POST['subject'];
 
-    if(isset($nom) && isset($prenom)  && isset($email) && isset($message)){// savoir si les variables sont declarées
+    if(isset($_POST['lastName']) && isset($_POST['firstName'])  && isset($_POST['email']) && isset($_POST['subject'])){// savoir si les variables sont declarées
+        $nom = $_POST['lastName'];
+        $prenom = $_POST['firstName'];
+        $email = $_POST['email'];
+        $message = $_POST['subject'];
         if($nom!="" && $prenom!="" && $email!="" && $message!=""){ // verifier si les champs sont remplis
             // if($mdp==$mdp2){// verifier le mdp identiques
-                $query = $bdd->prepare( "INSERT INTO contact (nom,prenom,email,message) VALUES(?, ?, ?,?)");//requette sql
-                $query->execute(array($nom,$prenom, $email, $message));
+                echo "salut";
+                $query = $bdd->prepare( "INSERT INTO contact (nom,prenom,email,message) VALUES (?, ?, ?, ?)");//requette sql
+                $query->execute(array($nom, $prenom, $email, $message));
             } 
             
             
