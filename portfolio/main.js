@@ -20,7 +20,7 @@ $(document).ready(function () {
             scrollTop: 0
         }, 2000);
     });
-
+//animation
     AOS.init({
         easing: 'ease',
         duration: 1000,

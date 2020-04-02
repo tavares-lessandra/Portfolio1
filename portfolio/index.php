@@ -20,9 +20,7 @@
     </div>
     <nav class="top-nav">
         <ul class="nav-list">
-            <li>
-                <a href="index.html" class="nav-link">Home</a>
-            </li>
+            
             <li>
                 <a href="#about" class="nav-link">About</a>
             </li>
@@ -74,22 +72,22 @@
             <div class="social-media">
                 <ul class="nav-list">
                     <li>
-                        <a href="#" class="icon-link">
+                        <a href="https://github.com/tavares-lessandra" class="icon-link">
                             <i class="fab fa-github-square"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="icon-link">
+                        <a href="https://www.linkedin.com/in/lessandra-tavares-28231b133/" class="icon-link">
                             <i class="fab fa-linkedin"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="icon-link">
+                        <a href="https://www.instagram.com/" class="icon-link">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="icon-link">
+                        <a href="https://www.facebook.com/lessandra.tavares" class="icon-link">
                             <i class="fab fa-facebook-square"></i>
                         </a>
                     </li>
